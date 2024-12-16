@@ -1,3 +1,17 @@
+import close from './close.svg'
+import menu from './menu.svg'
+import logo from './logo.svg' // This is your original logo
+import gmetis from './gmetis.png' // This is your new logo
+
+export {
+  close,
+  menu,
+  logo,
+  gmetis, // Ensure this is included
+}
+
+
+import gmetis from './gmetis.png' // This is your new logo
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
@@ -25,6 +39,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 
 export {
+  gmetis,
   airbnb,
   bill,
   binance,
