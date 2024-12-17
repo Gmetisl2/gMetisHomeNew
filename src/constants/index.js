@@ -40,48 +40,21 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Daily rewards incentivize active participation.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Transparent, secure token launched via Metis Forge with permanent liquidity lock on Hercules DEX",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Engagement",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-];
-
-export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "AI agents foster dynamic conversations & positive engagement.",
   },
 ];
 
@@ -108,24 +81,24 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Docs",
+        link: "https://docs.gmetis.com/",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Enagage and Earn",
+        link: "https://t.me/gmetisio/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "CVP Proposal",
+        link: "https://ceg.vote/t/cvp-proposal-gmetis/3743/",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Buy gMetis",
+        link: "https://app.hercules.exchange/?token2=0xFbe0F778e3c1168bc63d7b6F880Ec0d5F9E524E6",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Bridge to Metis",
+        link: "https://metis.io/bridge",
       },
     ],
   },
