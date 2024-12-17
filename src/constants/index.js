@@ -28,6 +28,10 @@ export const navLinks = [
     id: "GetGMetis",
     title: "Get gMetis",
   },
+  {
+    id: "documentation",
+    title: "Documentation",
+  },
 ];
 
 export const features = [
