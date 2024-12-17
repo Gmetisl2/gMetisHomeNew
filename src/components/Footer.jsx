@@ -11,7 +11,7 @@ const Footer = () => {
           <img
             src={gmetis}
             alt='gMetis logo'
-            className='w-[266px] h-[172px] object-contain'
+            className='w-[172px] h-[172px] object-contain'
           />
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
             AI Agent - Meme Token with a Touch of Utility
