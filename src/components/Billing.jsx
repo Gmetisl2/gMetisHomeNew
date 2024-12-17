@@ -5,7 +5,7 @@ import Button from './Button'
 
 const Billing = () => {
   return (
-    <section id='product' className={layout.sectionReverse}>
+    <section id='GetGMetis' className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
       <img
         src={bill}
