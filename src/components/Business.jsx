@@ -24,7 +24,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business = () => {
   return (
-    <section id='features' className={layout.section}>
+    <section id='features' className={`${layout.section} ${styles.paddingX}`}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           gMetis Reward System
