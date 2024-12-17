@@ -23,7 +23,7 @@ const Billing = () => {
         <Button 
           styles="mt-10" 
           text="Buy on Hercules DEX" 
-          link="https://app.hercules.exchange/?outputCurrency=0xFbe0F778e3c1168bc63d7b6F880Ec0d5F9E524E6" 
+          link="https://app.hercules.exchange/?token2=0xFbe0F778e3c1168bc63d7b6F880Ec0d5F9E524E6" 
         />
       </div>  
     </section>
