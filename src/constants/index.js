@@ -86,7 +86,7 @@ export const footerLinks = [
       },
       {
         name: "CVP Proposal",
-        link: "https://ceg.vote/t/cvp-proposal-gmetis/3743/",
+        link: "https://snapshot.box/#/s:metislayer2.eth/proposal/0xa78367dca7840d111d1762c55bcabf18c600e7cb3783d4b766c7f821e4a9a33a",
       },
       {
         name: "Buy gMetis",
