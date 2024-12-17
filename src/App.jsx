@@ -8,8 +8,7 @@ import {
   Footer, 
   Hero, 
   Navbar, 
-  Stats, 
-  Testimonials 
+  Stats 
 } from './components'
 import styles from './style'
 
@@ -32,7 +31,6 @@ const App = () => {
           <Business/>
           <Billing/>
           <CardDeal/>
-          <Testimonials/>
           <Clients/>
           <CTA/>
           <Footer/>     
