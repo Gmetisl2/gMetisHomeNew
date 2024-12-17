@@ -78,7 +78,7 @@ export const footerLinks = [
     links: [
       {
         name: "Docs",
-        link: "https://docs.gmetis.com/",
+        link: "https://docs.gmetis.io/",
       },
       {
         name: "Enagage and Earn",
@@ -103,7 +103,7 @@ export const footerLinks = [
     links: [
       {
         name: "Become a Partner",
-        link: "mailto:contact@gmetis.com",
+        link: "mailto:contact@gmetis.io",
       },
     ],
   },
