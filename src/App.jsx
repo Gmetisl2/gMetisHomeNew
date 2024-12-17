@@ -2,7 +2,6 @@ import React from 'react'
 import { 
   Billing, 
   Business, 
-  Clients,  
   CTA,
   Footer, 
   Hero, 
@@ -29,7 +28,6 @@ const App = () => {
           <Stats/>
           <Business/>
           <Billing/>
-          <Clients/>
           <CTA/>
           <Footer/>     
         </div>
