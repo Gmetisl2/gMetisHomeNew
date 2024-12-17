@@ -1,6 +1,7 @@
 import React from 'react'
-import { apple, bill, google } from '../assets'
+import { bill } from '../assets'
 import styles, { layout } from '../style'
+import Button from './Button'
 
 const Billing = () => {
   return (
@@ -15,24 +16,15 @@ const Billing = () => {
         <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient'/>
       </div>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Easily control your <br className='sm:block hidden'/> billing & invoicing.</h2>
+        <h2 className={styles.heading2}>Unlock the Power of gMetis on Hercules DEX</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Elit enim sed massa etiam.
-          Mauris eu adipiscing ultrices ametodio aenean neque.
-          Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+          Join the revolution with gMetis, now whitelisted on the leading DEX on Metis: Hercules DEX. Secure your gMetis tokens effortlessly and become a part of a thriving community. Holding gMetis not only boosts your rewards but also positions you at the forefront of innovation. Don't miss out on this opportunity to maximize your earnings and influence within the gMetis ecosystem.
         </p>
-        <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
-          <img
-            src={apple}
-            alt='app-store'
-            className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer'
-          />
-          <img
-            src={google}
-            alt='google-play'
-            className='w-[128px] h-[42px] object-contain cursor-pointer'
-          />
-        </div>
+        <Button 
+          styles="mt-10" 
+          text="Buy on Hercules DEX" 
+          link="https://app.hercules.exchange/?outputCurrency=0xFbe0F778e3c1168bc63d7b6F880Ec0d5F9E524E6" 
+        />
       </div>  
     </section>
   )
