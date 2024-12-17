@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import { gmetis } from '../assets' // Make sure to update the import to match the actual path and name of your logo file
+import { gmetis } from '../assets' // Ensure correct import path and filename
 import { footerLinks, socialMedia } from '../constants'
 
 const Footer = () => {
@@ -29,7 +29,7 @@ const Footer = () => {
                     key={item.name} 
                     className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== link.links.length - 1 ? 'mb-4' : 'mb-0'}`}
                   >
-                    {item.name}
+                    <a href={item.link}>{item.name}</a> {/* Wrapping the name with <a> tag */}
                   </li>
                 ))}
               </ul>
@@ -43,12 +43,13 @@ const Footer = () => {
         </p>  
         <div className='flex flex-row md:mt-0 mt-6'>
           {socialMedia.map((social, index) => (
-            <img
-              src={social.icon}
-              key={social.id}
-              alt={social.id}
-              className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'}`}
-            />
+            <a key={social.id} href={social.link}> {/* Adding <a> tag around the social media icon */}
+              <img
+                src={social.icon}
+                alt={social.id}
+                className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'}`}
+              />
+            </a>
           ))}
         </div>    
       </div>
