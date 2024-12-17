@@ -4,7 +4,7 @@ import {
   people03, 
   facebook, 
   instagram, 
-  linkedin, 
+  telegram, 
   twitter, 
   airbnb, 
   binance, 
@@ -113,12 +113,12 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://x.com/gmetisl2",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: telegram,
+    link: "https://t.me/gmetisio",
   },
 ];
 
