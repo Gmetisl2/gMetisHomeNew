@@ -1,20 +1,18 @@
 import React from 'react'
 import { card } from '../assets'
-import Button from './Button'
 import styles, { layout } from '../style'
 
 const CardDeal = () => {
   return (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Find a better card deal <br className='sm:block hidden'/>in few easy steps.</h2>
+        <h2 className={styles.heading2}>Buy gMetis on Hercules DEX</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Arcu tortor,
-          purus in mattis at sed integer faucibus.
-          Aliquet quis aliquet eget mauris tortor.ç 
-          Aliquet ultrices ac, ametau.
+          Purchase gMetis tokens easily and securely on Hercules DEX. Join our community and start earning rewards today!
         </p>
-        <Button styles='mt-10'/>
+        <a href="https://herculesdex.com" className="mt-10 inline-block bg-blue-500 text-white font-semibold py-2 px-4 rounded">
+          Buy on Hercules DEX
+        </a>
       </div>
       <div className={layout.sectionImg}>
         <img
