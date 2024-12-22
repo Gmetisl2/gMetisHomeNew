@@ -28,7 +28,7 @@ import telegram from './telegram.svg';
 import cvpbadge from './cvpbadge.svg';
 
 export {
-  cvpbadge
+  cvpbadge,
   telegram,
   gmetis,
   airbnb,
