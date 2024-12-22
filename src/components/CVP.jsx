@@ -2,7 +2,6 @@ import React from 'react';
 import { cvpbadge } from '../assets'; // Ensure cvpbadge.svg is in the assets folder
 import styles, { layout } from '../style';
 
-
 const CVP = () => {
   return (
     <section id='CVP' className={layout.sectionReverse}>
