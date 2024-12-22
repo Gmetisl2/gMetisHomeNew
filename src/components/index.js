@@ -14,7 +14,7 @@ import Stats from './Stats'
 export {
     Billing,
     Business,
-    CPV,
+    CVP,
     CardDeal,
     Clients,
     CTA,
