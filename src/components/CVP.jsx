@@ -1,7 +1,7 @@
 import React from 'react';
 import { cvpbadge } from '../assets'; // Ensure cvpbadge.svg is in the assets folder
 import styles, { layout } from '../style';
-import './style.css'; // Import your CSS file
+
 
 const CVP = () => {
   return (
