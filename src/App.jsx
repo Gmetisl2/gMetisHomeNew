@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
 import { 
   Billing, 
   Business, 
   CTA,
+  CVP, // Add this line
   Footer, 
   Hero, 
   Navbar, 
   Stats 
-} from './components'
-import styles from './style'
+} from './components';
+import styles from './style';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats/>
+          <CVP/> {/* Add this line */}
           <Business/>
           <Billing/>
           <CTA/>
@@ -33,7 +35,7 @@ const App = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
