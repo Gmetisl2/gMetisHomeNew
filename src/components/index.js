@@ -1,5 +1,6 @@
 import Billing from './Billing'
 import Business from './Business'
+import CVP from './CVP'
 import CardDeal from './CardDeal'
 import Clients from './Clients'
 import CTA from './CTA'
@@ -9,9 +10,11 @@ import Navbar from './Navbar'
 import Stats from './Stats'
 
 
+
 export {
     Billing,
     Business,
+    CPV,
     CardDeal,
     Clients,
     CTA,
