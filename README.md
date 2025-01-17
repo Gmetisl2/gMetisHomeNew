@@ -1,5 +1,5 @@
-# gMetis - New Website gmetis.io
-
+# gMetis
+<a href="https://gmetis.io">New Website</a>
 Modern responsive business website design made with React and Tailwind CSS.
 
 ## Built With
